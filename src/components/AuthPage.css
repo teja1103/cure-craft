@@ -1,0 +1,32 @@
+/* AuthPage.css */
+.auth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .auth-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .auth-form.login {
+    transform: translateX(0%);
+  }
+  
+  .auth-form.signup {
+    transform: translateX(-100%);
+  }
+  
+  .toggle-button-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
